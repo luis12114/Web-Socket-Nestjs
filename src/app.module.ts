@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
+import { GateWayModule } from './websockets/websocket.module';
 @Module({
-  imports: [],
+  imports: [GateWayModule],
   controllers: [],
   providers: [],
 })
